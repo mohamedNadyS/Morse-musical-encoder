@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Morse musical encoder - gangnam style</title>
+        <style>
+            :root {
+                --bg:#000000;
+                --sc:#1a1a1a;
+                --org:#e8710a;
+                --bor:#964a03;
+            }
+            body {
+                margin:0;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background: var(--bg);
+                color: var(--org);
+                font-family: monospace;
+                gap: 20px;
+            }
+            input {
+                width: 260px;
+                padding: 15px;
+                font-size: 20px;
+                color: var(--org);
+                background: var(--sc);
+                border: 3px solid var(--bor);
+                border-radius: 9px;
+                outline: none;
+                text-transform: uppercase;
+            }
+            input:focus{
+                border-color: var(--org);
+            }
+            input::placeholder{
+                color: var(--bor);
+            }
+            pre {
+                max-width: 85vw;
+                min-height: 3em;
+                margin: 0;
+                font-size: 30px;
+                color:antiquewhite;
+                text-align: center;
+                white-space: pre-wrap;
+                word-break:break-word;
+            }
+        </style>
+    </head>
+    <body>
+        <input id="input" maxlength="25" placeholder="type your secret message" autofocus>
+        <pre id="output"></pre>
+        <script>
+            
+        </script> 
+    </body>
+</html>

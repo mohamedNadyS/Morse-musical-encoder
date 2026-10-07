@@ -1,0 +1,22 @@
+{
+  "name": "morse-musical-encoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedNadyS/Morse-musical-encoder.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mohamedNadyS/Morse-musical-encoder/issues"
+  },
+  "homepage": "https://github.com/mohamedNadyS/Morse-musical-encoder#readme",
+  "devDependencies": {
+    "terser": "^5.51.2"
+  }
+}
